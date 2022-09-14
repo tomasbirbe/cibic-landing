@@ -1,13 +1,22 @@
+import { RiLinkedinBoxFill } from "react-icons/ri";
+import { FaYoutube } from "react-icons/fa";
+
 export default function App() {
   return (
     <>
-      <nav className="">
-        <div>
-          <p>Se parte de nuestro equipo</p>
-          <div>
-            <button>linkedin</button>
-            <button>youtube</button>
-          </div>
+      <nav>
+        <div className=" bg-gray-100 h-[40px] grid place-items-center">
+          <p className=" text-[#43a697] font-bold text-[14px] leading-none">
+            Sé parte de nuestro Equipo
+          </p>
+        </div>
+        <div className="flex justify-center items-center gap-5 h-[44px] border-b">
+          <a>
+            <RiLinkedinBoxFill className="text-gray-400" size="23px" />
+          </a>
+          <a>
+            <FaYoutube className="text-gray-400" size="23px" />
+          </a>
         </div>
         <ul>
           <li>Institucional</li>
