@@ -1,5 +1,6 @@
 import { RiLinkedinBoxFill } from "react-icons/ri";
 import { FaYoutube } from "react-icons/fa";
+import { HiMenu } from "react-icons/hi";
 
 export default function App() {
   return (
@@ -18,7 +19,11 @@ export default function App() {
             <FaYoutube className="text-gray-400" size="23px" />
           </a>
         </div>
-        <ul>
+        <div className="flex justify-between items-center px-2 py-4">
+          <img alt="" height="63px" src="cibic-logo.jpg" width="140px" />
+          <HiMenu className="text-gray-400" size="25px" />
+        </div>
+        {/* <ul>
           <li>Institucional</li>
           <li>C. de atencion</li>
           <li>Pacientes</li>
@@ -26,9 +31,11 @@ export default function App() {
           <li>Heritas</li>
           <li>Lab colegas</li>
           <li>Mi cibic</li>
-        </ul>
+        </ul> */}
       </nav>
-      <header />
+      <header className="w-full h-[180px]">
+        <img alt="" className="object-cover" src="header/banner-1.jpg" />
+      </header>
       <main>
         <section>
           cards
